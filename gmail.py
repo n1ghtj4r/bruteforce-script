@@ -27,3 +27,5 @@ def brute_force_gmail(username, password_options, max_attempts=5):
 
         attempts += 1
         time.sleep(1) # Add a delay to prevent brute-force from getting too fast
+
+# note: not fully created, you need to use smtplib for gmail client for "://gmail.com" to work properly, need makes some logic for this.
